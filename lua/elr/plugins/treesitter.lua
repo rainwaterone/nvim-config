@@ -7,7 +7,7 @@ return {
   },
   config = function()
     -- import nvim-treesitter plugin
-    local treesitter = require("nvim-treesitter.configs")
+    local treesitter = require("nvim-treesitter")
 
     -- configure treesitter
     treesitter.setup({ -- enable syntax highlighting
@@ -27,21 +27,16 @@ return {
         "sql",
         "javascript",
         "typescript",
-        "tsx",
         "yaml",
         "html",
         "css",
-        "prisma",
         "markdown",
         "markdown_inline",
-        "svelte",
-        "graphql",
         "bash",
         "lua",
         "vim",
         "dockerfile",
         "gitignore",
-        "query",
         "vimdoc",
         "c",
       },
